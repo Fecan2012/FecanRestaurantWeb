@@ -8,22 +8,23 @@ class WPEateryDAO{
 	 * Database host.
 	 * @var String
 	 */
-	private static $DB_HOST = '127.0.0.1';
+	
+	private static $DB_HOST = "us-cdbr-iron-east-04.cleardb.net";
 	/**
 	 * Database username.
 	 * @var String
 	 */
-	private static $DB_USER = 'wp_eatery';
+	private static $DB_USER = "b50d8c2726eda5";
 	/**
 	 * Database password.
 	 * @var String
 	 */
-	private static $DB_PASS = 'password';
+	private static $DB_PASS = "4a9690b1";
 	/**
 	 * Database name.
 	 * @var String
 	 */
-	private static $DB_NAME = 'wp_eatery';
+	private static $DB_NAME = "heroku_cdb11dd97f00e5b";
 	
 	/**
 	 * Mysqli object used to database communication.

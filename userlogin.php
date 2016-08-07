@@ -16,7 +16,7 @@
         }
     }
 	// To connect database for updating date/time in adminusers table.
-	$connect = mysqli_connect("127.0.0.1", "root", "1234", "wp_eatery") or die('Error: ' . mysqli_error($connect));
+	$connect = mysqli_connect("us-cdbr-iron-east-04.cleardb.net", "b50d8c2726eda5", "4a9690b1", "heroku_cdb11dd97f00e5b") or die('Error: ' . mysqli_error($connect));
 	
 	extract($_POST);
 	

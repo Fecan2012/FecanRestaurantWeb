@@ -21,7 +21,7 @@
 			$adminUser = $_SESSION["adminSession"];
 			
 			mysqli_report(MYSQLI_REPORT_STRICT);
-			$connect = mysqli_connect("127.0.0.1", "wp_eatery", "password", "wp_eatery") or die('Error: ' . mysqli_error($link));
+			$connect = mysqli_connect("us-cdbr-iron-east-04.cleardb.net", "b50d8c2726eda5", "4a9690b1", "heroku_cdb11dd97f00e5b") or die('Error: ' . mysqli_error($link));
 			$query = "SELECT * FROM mailinglist" ;
 			$log = $connect->query($query) or die('Error: ' . mysqli_error($conect));
 			echo "<table style=\"text-align:center;\">";
